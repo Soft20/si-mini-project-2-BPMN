@@ -39,7 +39,7 @@ The BPMN model shows the workflow of the system and starts with the "Job Offer".
 
 ![Job Offer BPMN Diagram](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/job-offer-bpmn.PNG)
 
-##### Decision Model and Notation Table
+#### Decision Model and Notation Table
 ![benefits DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/benefits-dmn-table.PNG)
 
 ### Testing the business process
@@ -70,17 +70,18 @@ Job declined for a job offer with the salary 65000 kr.
 
 ## Prerequisite
 
-#### Server
+#### Service Task
 * [node.js](https://nodejs.org/en/)
 
-## Installation
-#### Server
-```bash
-yarn install
-```
+#### Camunda
+* [Camunda](https://camunda.com/)
 
-#### Client
-##### Install Camunda:
+## Installation
+#### Service Task
+```bash
+npm install
+```
+#### Camunda
 * [Camunda Community Platform](https://camunda.com/download/)
 * [Camunda Modeler](https://camunda.com/download/modeler/)
 
