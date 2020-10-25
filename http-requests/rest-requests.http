@@ -1,7 +1,10 @@
 # Send a POST request through Postman or install the VSCode extension "REST Client" to do it directly from this file.
 POST http://localhost:8080/engine-rest/process-definition/key/job-offer/start
+
+# Header
 Content-Type: application/json
 
+# Body
 {
 	"variables": {
 		"salary": {
