@@ -87,9 +87,8 @@ npm install
 * [Camunda Modeler](https://camunda.com/download/modeler/)
 
 ## Execution
-`ctr + c` to terminate services.
 
-#### Server
+#### Service Task
 ```bash
 npm start
 ```
@@ -101,5 +100,10 @@ In the terminal you should now see the following output:
 ✓ subscribed to topic job-offer-declined
 ```
 
+`ctr + c` to terminate the service.
+
 #### Camunda
 * Deploy the [BPMN diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) through the Camunda modeler.
+
+* Start Camunda by running the start-camunda script.
+* Stop Camunda by running the shutdown-camunda script.
