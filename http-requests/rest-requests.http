@@ -1,4 +1,4 @@
-# Send through Postman or install the VSCode extension "REST Client"
+# Send a POST request through Postman or install the VSCode extension "REST Client" to do it directly from this file.
 POST http://localhost:8080/engine-rest/process-definition/key/job-offer/start
 Content-Type: application/json
 
