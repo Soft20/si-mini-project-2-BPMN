@@ -1,0 +1,20 @@
+# Send through Postman or install the VSCode extension "REST Client"
+POST http://localhost:8080/engine-rest/process-definition/key/job-offer/start
+Content-Type: application/json
+
+{
+	"variables": {
+		"salary": {
+			"value":65000,
+			"type":"long"
+		},
+        "freeCoffee": {
+			"value": true,
+            "type": "boolean"
+		},
+        "freeMacBook": {
+			"value": true,
+            "type": "boolean"
+		}
+	}
+}

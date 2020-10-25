@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="Definitions_0himpdn" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.3.0">
+  <decision id="benefits2" name="Benefits">
+    <decisionTable id="DecisionTable_1u02zf1">
+      <input id="Input_1" label="Free Coffee">
+        <inputExpression id="InputExpression_1" typeRef="boolean">
+          <text>freeCoffee</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0og5edl" label="Free MacBook">
+        <inputExpression id="LiteralExpression_0euli4k" typeRef="boolean">
+          <text>freeMacBook</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Is Good" name="isGood" typeRef="boolean" />
+      <rule id="DecisionRule_0pa5qcp">
+        <inputEntry id="UnaryTests_0q9annl">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1dmqhud">
+          <text>true</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1btw34j">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_13jzq7u">
+        <inputEntry id="UnaryTests_1v7v7hd">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_03em024">
+          <text>false</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0h5e4u0">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_18isaie">
+        <inputEntry id="UnaryTests_07xk2ft">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1xnaybg">
+          <text>true</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0geejh1">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1yfq9vh">
+        <inputEntry id="UnaryTests_1wiuev8">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_11g786j">
+          <text>false</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_195v3mf">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="benefits2">
+        <dc:Bounds height="80" width="180" x="160" y="80" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
