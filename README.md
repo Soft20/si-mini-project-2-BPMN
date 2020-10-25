@@ -39,10 +39,12 @@ This project consists of a [BPMN Diagram](https://github.com/Soft20/si-mini-proj
 The BPMN Diagram shows the workflow of the system and starts with the "Job Offer". When the program receives the offer, it determines if the salary is high enough or not. If it is not high enough, it goes through the DMN Table, which then determines if the job offers a free MacBook, free coffee or not. Depending on the benefits, the offer is either declined or will then go though the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist), where the user can determine if they want to accept or decline the offer. Depending on the response, the [Service Task](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js) will print in the console wether or not the job offer was approved of.
 
 XML version of the BPMN diagram: [job-offer](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn)
+
 ![Job Offer BPMN Diagram](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/job-offer-bpmn.PNG)
 
 #### Decision Model and Notation Table
 XML version of the DMN Table: [benefits-table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn)
+
 ![Benefits DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/benefits-dmn-table.PNG)
 
 ## Testing the business process
