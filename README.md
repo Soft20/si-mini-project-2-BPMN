@@ -42,7 +42,7 @@ The BPMN model shows the workflow of the system and starts with the "Job Offer".
 ##### Decision Model and Notation Table
 ![benefits DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/benefits-dmn-table.PNG)
 
-### Testing the program
+### Testing the business process
 1. Make a POST request with the information found in: [rest-requests.http](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/http-requests/rest-requests.http)
 
 2. Open the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist) in your browser and verify a new User Acceptance task with a Job Offer has appeared.
