@@ -16,3 +16,5 @@ Adam Lass, Pernille Lørup, Stephan Djurhuus & Rasmus Helsgaun
 
 5. Open the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist) in your browser and verify a new User Acceptance task with a Job Offer has appeared.
 If you havent tempered with the .http file body you should get a task looking like this:
+
+![acceptance1](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/acceptance1.PNG)
