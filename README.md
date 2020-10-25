@@ -7,10 +7,10 @@ Adam Lass, Pernille Lørup, Stephan Djurhuus & Rasmus Helsgaun
 2. Deploy the [BPMN diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits%20table.dmn) on Camunda.
 
 3. Run the [index.js file](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js) and you should get the output:
-´´´javascript
+```javascript
 ✓ subscribed to topic job-offer-accepted
 ✓ subscribed to topic job-offer-declined
-´´´
+```
 
 4. Make a POST request with the information found in: [rest-requests.http](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/http-requests/rest-requests.http)
 
