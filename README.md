@@ -30,18 +30,20 @@ The business process would be associated with your exam project.
 ### Business Case
 Our business case is to show a business process / workflow, which can filter out job offers depending on the salary and the different benefits coming with it.
 
-This is done through a "Business Process Modelling and Automation" model (BPMN), containing automation through a "Decision Model and Notation Table" (DMN) and user interation though Camunda.
+This is done through a "Business Process Modelling and Automation" Diagram (BPMN), containing automation through a "Decision Model and Notation Table" (DMN) Table and user interation though Camunda.
 
 ### Summary
-This project consists of a [BPMN Diagram](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) containing a User Task controlled through the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist), a Business Rule Task run through the [benefits-table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) and two Service Tasks run in Javascript through the file [index.js](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js).
+This project consists of a [BPMN Diagram](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) containing a User Task controlled through the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist), a Business Rule Task run through the [DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) and two Service Tasks run in Javascript through the file [index.js](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js).
 
 #### Business Process Modelling and Automation Diagram
-The BPMN model shows the workflow of the system and starts with the "Job Offer". When the program receives the offer, it determines if the salary is high enough or not. If it is not high enough, it goes through the DMN model, which then determines if the job offers a free MacBook, free coffee or not. Depending on the benefits, the offer is either declined or will then go though the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist), where the user can determine if they want to accept or decline the offer. Depending on the response, the [Service Task](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js) will print in the console wether or not the job offer was approved of.
+The BPMN Diagram shows the workflow of the system and starts with the "Job Offer". When the program receives the offer, it determines if the salary is high enough or not. If it is not high enough, it goes through the DMN Table, which then determines if the job offers a free MacBook, free coffee or not. Depending on the benefits, the offer is either declined or will then go though the [Camunda Tasklist](http://localhost:8080/camunda/app/tasklist), where the user can determine if they want to accept or decline the offer. Depending on the response, the [Service Task](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/index.js) will print in the console wether or not the job offer was approved of.
 
+XML version of the BPMN diagram: [job-offer](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn)
 ![Job Offer BPMN Diagram](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/job-offer-bpmn.PNG)
 
 #### Decision Model and Notation Table
-![benefits DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/benefits-dmn-table.PNG)
+XML version of the DMN Table: [benefits-table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn)
+![Benefits DMN Table](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/images/benefits-dmn-table.PNG)
 
 ## Testing the business process
 1. Make a POST request with the information found in: [rest-requests.http](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/http-requests/rest-requests.http)
@@ -114,7 +116,7 @@ In the terminal you should now see the following output:
 #### Camunda
 * Start Camunda by running the start-camunda script.
 * Stop Camunda by running the shutdown-camunda script.
-* Deploy the [BPMN diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) through the Camunda modeler.
+* Deploy the [BPMN Diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN Table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) through the Camunda modeler.
 
 #### Postman, Insomnia or VSCode REST CLIENT Extension
 Run a POST request with the information found in [rest-requests.http](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/http-requests/rest-requests.http).
