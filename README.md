@@ -19,11 +19,11 @@ The business process would be associated with your exam project.
 [Link to extended assignment description](https://datsoftlyngby.github.io/soft2020fall/resources/6f3005f8-MP2-BPMN.pdf)
 
 ## Content
-* [Technical Features](##technical-features)
-* [Testing the business process](##testing-the-business-process)
-* [Prerequisite](##prerequisite)
-* [Installation](##installation)
-* [Execution](##execution)
+* [Technical Features](#technical-features)
+* [Testing the business process](#testing-the-business-process)
+* [Prerequisite](#prerequisite)
+* [Installation](#installation)
+* [Execution](#execution)
 
 ## Technical features
 
