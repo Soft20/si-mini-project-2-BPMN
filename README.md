@@ -78,8 +78,8 @@ Job declined for a job offer with the salary 65000 kr.
 * [Camunda](https://camunda.com/)
 
 #### Postman, Insomnia or VSCode REST CLIENT Extension
-* [Postman](https://www.postman.com)
-* [Insomnia](https://insomnia.rest)
+* [Postman](https://www.postman.com) or
+* [Insomnia](https://insomnia.rest) or
 * [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 ## Installation
@@ -92,8 +92,8 @@ npm install
 * [Camunda Modeler](https://camunda.com/download/modeler/)
 
 #### Postman, Insomnia or VSCode REST CLIENT Extension
-* [Postman](https://www.postman.com/downloads/)
-* [Insomnia](https://insomnia.rest/download/)
+* [Postman](https://www.postman.com/downloads/) or
+* [Insomnia](https://insomnia.rest/download/) or
 * [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 ## Setup
