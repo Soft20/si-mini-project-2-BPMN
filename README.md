@@ -77,6 +77,11 @@ Job declined for a job offer with the salary 65000 kr.
 #### Camunda
 * [Camunda](https://camunda.com/)
 
+#### Postman, Insomnia or VSCode REST CLIENT Extension
+* [Postman](https://www.postman.com)
+* [Insomnia](https://insomnia.rest)
+* [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
 ## Installation
 #### Service Task
 ```bash
@@ -86,8 +91,12 @@ npm install
 * [Camunda Community Platform](https://camunda.com/download/)
 * [Camunda Modeler](https://camunda.com/download/modeler/)
 
-## Execution
+#### Postman, Insomnia or VSCode REST CLIENT Extension
+* [Postman](https://www.postman.com/downloads/)
+* [Insomnia](https://insomnia.rest/download/)
+* [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
+## Setup
 #### Service Task
 ```bash
 npm start
@@ -103,7 +112,10 @@ In the terminal you should now see the following output:
 `ctr + c` to terminate the service.
 
 #### Camunda
-* Deploy the [BPMN diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) through the Camunda modeler.
-
 * Start Camunda by running the start-camunda script.
 * Stop Camunda by running the shutdown-camunda script.
+* Deploy the [BPMN diagram "job-offer.bpmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/job-offer.bpmn) and the [DMN table "benefits-table.dmn"](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/BPMN/benefits-table.dmn) through the Camunda modeler.
+
+#### Postman, Insomnia or VSCode REST CLIENT Extension
+Run a POST request with the information found in [rest-requests.http](https://github.com/Soft20/si-mini-project-2-BPMN/blob/main/http-requests/rest-requests.http).
+If you have the VSCode [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client), you can run the request directly from the file by clicking "Send Request" found above the POST request URL.
